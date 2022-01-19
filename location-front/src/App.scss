@@ -1,0 +1,66 @@
+.App {
+  margin-top: 200px !important;
+  margin: 24px;
+  width: 640px;
+  display: grid !important;
+  background: white;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.input-field {
+  width: 260px;
+  height: 50px;
+  margin-bottom: 4px;
+  font-size: large;
+  margin-top: 10%;
+  border: 2px solid gray;
+  padding: 8px;
+}
+.input-field-item {
+  cursor: pointer;
+}
+.main-container {
+  margin-top: 200px !important;
+  margin: 24px;
+  width: 640px;
+  display: grid;
+  background: white;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.example-form {
+  min-width: 150px !important;
+  max-width: 640px !important;
+  width: 100% !important;
+  height: 30px !important;
+  font-size: 18px !important;
+  &:hover {
+    outline: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.example-full-width {
+  width: 100%;
+}
+.itemList {
+  box-shadow: 2px 2px #ccc;
+  border: 1px solid #ccc;
+}
+
+.searchlist {
+  font-size: 16px;
+  max-width: fit-content;
+  margin: 0;
+  padding: 16px;
+}

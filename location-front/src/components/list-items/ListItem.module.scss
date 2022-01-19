@@ -1,0 +1,29 @@
+.list-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  background-color: aliceblue;
+}
+.list-item {
+  background-color: turquoise !important;
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 16px !important;
+  padding: 8px !important;
+  // margin: 1px !important;
+  border-radius: 10px;
+  max-width: 250px;
+  min-height: 100%;
+}
+.list-item-menu {
+  background-color: turquoise;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+.button-item {
+  border: 1px solid gray;
+  background: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
